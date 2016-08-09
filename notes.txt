@@ -1,0 +1,4 @@
+# Install on android device
+react-native run-android
+
+# Update dev settings on react native to point to dev server
