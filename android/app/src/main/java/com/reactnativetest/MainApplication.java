@@ -1,5 +1,7 @@
 package com.reactnativetest;
 
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
+import com.ocetnik.timer.BackgroundTimerPackage;
 import android.app.Application;
 import android.util.Log;
 
@@ -23,7 +25,9 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+          new MainReactPackage(),
+          new ReactNativePushNotificationPackage(),
+          new BackgroundTimerPackage()
       );
     }
   };

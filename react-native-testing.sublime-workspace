@@ -1,0 +1,1485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"scrollTo",
+				"scrollToNearestError"
+			],
+			[
+				"webpack",
+				"webpackWatchProcess"
+			],
+			[
+				"completed",
+				"googleCaptchaCompleted"
+			],
+			[
+				"google",
+				"googleCaptchaCompleted"
+			],
+			[
+				"components_surveyRender",
+				"components_surveyRender_surveyRenderData"
+			],
+			[
+				"recap",
+				"recaptchaDirective"
+			],
+			[
+				"ext",
+				"extension"
+			],
+			[
+				"any",
+				"AnyContent"
+			],
+			[
+				"bluep",
+				"blueprint_translation"
+			],
+			[
+				"selected",
+				"selectedBlueprint"
+			],
+			[
+				"react",
+				"React.PropTypes.oneOfType"
+			],
+			[
+				"ng",
+				"ngcontroller	angular-controller"
+			],
+			[
+				"cach",
+				"cacheBusta"
+			],
+			[
+				"save",
+				"saveAndAdvance"
+			],
+			[
+				"reca",
+				"recaptchaStatus"
+			],
+			[
+				"components_ses",
+				"components_session_sessionService"
+			],
+			[
+				"components_local",
+				"components_locality_localityService"
+			],
+			[
+				"components_error",
+				"components_errorReport_errorService"
+			],
+			[
+				"updateRes",
+				"updateRespondentPromise"
+			],
+			[
+				"myInform",
+				"myInformationFormErrorService"
+			],
+			[
+				"getRespon",
+				"getRespondentService"
+			],
+			[
+				"saveResp",
+				"saveRespondentDataPromise"
+			],
+			[
+				"token",
+				"tokenService"
+			],
+			[
+				"saveRe",
+				"saveRespondentDataPromise"
+			],
+			[
+				"helpers_",
+				"helpers_logError"
+			],
+			[
+				"e",
+				"each"
+			],
+			[
+				"components",
+				"components_session_sessionService"
+			],
+			[
+				"get",
+				"getRespondentInfo"
+			],
+			[
+				"compon",
+				"components_api_apiService"
+			],
+			[
+				"rese",
+				"resendActivationEmail"
+			],
+			[
+				"rei",
+				"redirect"
+			],
+			[
+				"reset",
+				"resetPassword"
+			],
+			[
+				"com",
+				"components_session_sessionService"
+			],
+			[
+				"redi",
+				"redirectToDashboard"
+			],
+			[
+				"redirect",
+				"redirectToDashboard"
+			],
+			[
+				"redir",
+				"redirectToLogin"
+			],
+			[
+				"getSi",
+				"getSelectedSite"
+			],
+			[
+				"defer",
+				"deferred"
+			],
+			[
+				"componnets",
+				"components_loader_loaderService"
+			],
+			[
+				"mock",
+				"mockSingleResponseAction"
+			],
+			[
+				"parameter",
+				"parameterExclusiveAnswerFound"
+			],
+			[
+				"bread",
+				"breadcrumb-bg"
+			],
+			[
+				"brea",
+				"breadcrumb-bg"
+			],
+			[
+				"isVa",
+				"isValidAnswerValue"
+			],
+			[
+				"is",
+				"isValidAnswerValue"
+			],
+			[
+				"tim",
+				"surveyTimer"
+			],
+			[
+				"survey",
+				"surveyCompleted"
+			],
+			[
+				"start",
+				"startInactivityCountdown"
+			],
+			[
+				"author",
+				"authorizeCheck"
+			],
+			[
+				"update",
+				"updateSurveyRenderModel"
+			],
+			[
+				"randomiz",
+				"randomizeAnswersForParameter"
+			],
+			[
+				"ran",
+				"randomizeAnswersForParameter"
+			],
+			[
+				"getSurvey",
+				"getSurveyModeByViewPort"
+			],
+			[
+				"countriesR",
+				"countriesRecievedPromise"
+			],
+			[
+				"countries",
+				"countriesRecievedPromise"
+			],
+			[
+				"locales",
+				"localesForSelectedCountry"
+			],
+			[
+				"getl",
+				"getLocalesByCountryCode"
+			],
+			[
+				"clean",
+				"cleanAppCSS"
+			],
+			[
+				"components_api",
+				"components_api_apiService"
+			],
+			[
+				"create",
+				"createAppCSS"
+			],
+			[
+				"refresh",
+				"refreshStaticData"
+			],
+			[
+				"surveyParam",
+				"surveyParameterIndex"
+			],
+			[
+				"trans",
+				"transformToFacetedSearch"
+			],
+			[
+				"components_",
+				"components_api_apiService"
+			],
+			[
+				"has",
+				"hasHighlight"
+			],
+			[
+				"expec",
+				"expectedResponse"
+			],
+			[
+				"getParent",
+				"getParentIdsOfParameter"
+			],
+			[
+				"parmeterTree",
+				"parameterTreeFilter"
+			],
+			[
+				"newParameters",
+				"newParametersFromSelectedParameters"
+			],
+			[
+				"getChid",
+				"getChildrenOfParameterFromParameterTree"
+			],
+			[
+				"getChildren",
+				"getChildrenOfParameterFromParameterTree"
+			],
+			[
+				"getChild",
+				"getChildrenOfParameter"
+			],
+			[
+				"parameterId",
+				"parameterIdsToDelete"
+			],
+			[
+				"getPArent",
+				"getParentIdsOfParameter"
+			],
+			[
+				"getchi",
+				"getChildrenIdsOfParameter"
+			],
+			[
+				"moveParameter",
+				"moveParameterUp"
+			],
+			[
+				"canMove",
+				"canMoveParameterUp"
+			],
+			[
+				"canMoveParameter",
+				"canMoveParameterDown"
+			],
+			[
+				"getParam",
+				"getParametersTree"
+			],
+			[
+				"move",
+				"moveParameterUp"
+			],
+			[
+				"resort",
+				"resortParameterTree"
+			],
+			[
+				"getParameter",
+				"getParameterCountryCodes"
+			],
+			[
+				"groupsAvaila",
+				"groupsAvailableForParameterId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 174.0,
+		"last_filter": "package remove",
+		"selected_items":
+		[
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"repl console",
+				"SublimeREPL: Tower Console"
+			],
+			[
+				"repl",
+				"SublimeREPL: Scala"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"tidy",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"beautify",
+				"HTMLBeautify"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prei",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package ints",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"package disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"package isa",
+				"Package Control: Disable Package"
+			],
+			[
+				"format",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"package dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Prototype"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"package enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package instlal",
+				"Package Control: Install Package"
+			],
+			[
+				"package disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"package	",
+				"Package Control: Disable Package"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package disablke",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			],
+			[
+				"pakage install",
+				"Package Control: Install Package"
+			],
+			[
+				"PACKAGE ENABLE",
+				"Package Control: Enable Package"
+			],
+			[
+				"package isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
+			[
+				"package ionstall",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 54.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/html/forms.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/formsController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/api/apiConfig.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/navController.js",
+		"/Users/mikemunsie/Desktop/index.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/assetsController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/memberServices/respondent/html/info.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/terminal.glue",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/models/translationService.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/contentController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/rewards/summaryController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/models/reward.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/rewards/contentController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/rewards/emailController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/panels/manage/contentController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/panels/manage/manage.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/panels/panels.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/contentController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/emailController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/rewards.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/summaryController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/components/models/reward.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/components/models/translationService.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/.gitignore",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/bower.json",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/app/views/auth/panels.scala.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/panels.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/htmlEditor/htmlEditorDirective.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/sass/themes/nickifresh/bower_components/ui_bootstrap/_ui_bootstrap.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/grid/gridDirective.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/sass/themes/nickifresh/bower_components/ui_grid/_ui_grid.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/rewards/html/details.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/html/summary.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/html/properties.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/html/dependency.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/html/answerSet.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/answerSet/html/properties.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/html/content.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/html/config.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/assetUpload/html/assetUpload.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/html/elements.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/answerSet/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/answerSetController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/uploadDispositionsController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/survey/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/survey/parametersController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/recruitment/publisher/html/grid_rowTemplate.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/rewards/inventory/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/rewards/rewardCodesController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/flareFormsAdmin/admin/pagesComponent.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/recruitment/test/reportEdit.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/html/index.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/memberServices/memberServices.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/memberServices/test/respondentAdjustmentsController.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/profiling.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/test/expressionsController.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/test/uploadDispositions.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/recruitment/recruitment.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/recruitment/test/campaignTest.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/test/inventory.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/test/rewardsDetails.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/styleGuide/styleGuide.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/components/grid/grid.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/components/grid/gridDirective.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/components/grid/test/grid.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/components/includeReplace/test/includeReplaceDirective.spec.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/panels/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/panels/manage/assetUpload/assetUpload.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/packages/global.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/answerSet/answerSet.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/answerSet/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/parameter/answerSetController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/parameter/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/parameter/parameter.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/parameter/uploadDispositionsController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/survey/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/survey/parametersController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/profiling/survey/survey.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/inventory/indexController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/inventory/inventory.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/apps/rewards/rewardCodesController.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/components/flareFormsAdmin/admin/pagesComponent.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/dist/components/flareFormsAdmin/flareFormsAdmin.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/app/views/layout/main.scala.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/sass/themes/nickifresh/elements/_forms.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/parameter/scss/_preview.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/sass/themes/nickifresh/style.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/app/views/layout/auth.scala.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/webpack.config.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/package.json",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/packages/global.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/formlyForm/formlyForm.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/common/auth/auth.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/styleGuide/styleGuide.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/recruitment/recruitment.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/profiling/profiling.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/previewEmail/previewEmail.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/node_modules/es5-ext/global.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/node_modules/susy/templates/project/style.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/sass/themes/nickifresh/_config.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/formlyForm/scss/_formlyBootstrap.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/build/tasks/dev.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/build/tasks/default.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/build/libs/watch.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/build/libs/taskGroup.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/coolazelle.sublime-project",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/package.json",
+		"/Applications/MAMP/htdocs/circletheatre/application/database/tables/tables.php",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/scss/panels.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/flareFormsAdmin/elements/novaCaptcha/html/novaCaptcha.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/flareFormsAdmin/elements/novaCaptcha/novaCaptcha.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/flareFormsAdmin/flareFormsAdmin.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/flareFormsAdmin/elements/novaCaptcha/readme.md",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/session/sessionService.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/build/packages.json",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/rewards/html/email.html",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/_config.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/components/flareForms/scss/flareForms.scss",
+		"/Users/mikemunsie/Desktop/VOP4-Help.txt",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/webpack.config.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/apps/componentExamples/componentExamples.js",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/flareForms.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/_config-bootstrap.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/style.scss",
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/sass/_config.scss"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/app/views",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/build",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/build/libs",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/sass",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/layouts",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/elements",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/sass",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/layouts",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop3",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components/surveyRender",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components/flareForms/elements/parameter",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components/surveyRender",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components/flareForms/elements/parameter",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/webperspectives",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/webmiles",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop2",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop1",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/generic",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/eri2",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/webperspectives",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/webmiles",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop2",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop1",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/eri2",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop1",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/eri2",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/eri2/layout",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop2",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop3/layout/default",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/airmiles",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles/apps/auth",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/models",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop3",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/airmiles",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles/sass",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles/common",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles/apps,-*.scss",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/airmiles",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop3",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/airmiles",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop3",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop3",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components/flareForms/elements",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/vendor",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/common",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards/html",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop3",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/common",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/test",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards/html",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/apps/auth/rewards",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/gulp",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/controllers",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/models",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/utils",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views/vop3/layout/default",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app/views",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/components",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/common",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/shared/apps",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/app",
+			"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"callSurveyRenderService",
+			"form-control",
+			"forceResetPassword",
+			"getAssetSiteDomain",
+			"siteDomain",
+			"getAssetSiteDomain",
+			"siteDomain",
+			".find",
+			"partnerAssigned",
+			"blueprintTranslation",
+			"handleError",
+			"saveTagTranslationPreview",
+			"getBlueprintTranslation",
+			"panelId",
+			"getBlueprintTranslation",
+			"blueprintTranslation",
+			"getblueprintTranslation",
+			"blueprintTranslation",
+			"getBlueprintTranslation",
+			"blueprintTranslationByLocale",
+			"blueprintTranslationByPanelAndLocale",
+			"getBlueprintTranslationByLocale",
+			"loadTranslation",
+			"loadBlueprintTags",
+			"loadBlueprintTagsPromise",
+			"displayBlueprintConfig",
+			"vm.panel",
+			"panels",
+			"loadBlueprintList",
+			"blueprintList",
+			"translationService",
+			"loadBlueprintList",
+			"uib-tooltip",
+			"tooltip=",
+			"tooltip",
+			".ui-grid-render-container-body",
+			"../vendor/",
+			"uib-dropdown-menu",
+			"dropdown",
+			"dropdown-toggle\"",
+			"is-open",
+			"dropdown",
+			"dropdown-menu",
+			"dropdown",
+			"dropdown ",
+			"dropdown",
+			" dropdown",
+			"dropdown",
+			"\" dropdown",
+			" dropdown ",
+			"dropdown",
+			"dropdown-menu",
+			".utils",
+			"plugins",
+			"angular",
+			"__webpack_require__(9)",
+			"window.angular =",
+			"angular",
+			"../../../../",
+			"../../../../shared/",
+			"../../../../node_modules/",
+			"./bower_components/",
+			"include",
+			"box-sizing",
+			"@include box-sizing",
+			"@include box-sizing(border-box);",
+			"@include box-sizing",
+			"box-sizing",
+			"../../../shared/vendor/",
+			"@import @import",
+			"\"../../../vendor/compass-mixins/",
+			"compass-mixins",
+			"angular-ui-bootstra",
+			"bootstrap",
+			"jquery",
+			"settings.",
+			"createAppJs",
+			"concat",
+			"animate",
+			"bootstrap",
+			"SyntaxHighlighter",
+			"ui-utils",
+			"angularjs",
+			"cloneDeep",
+			"displayModel =",
+			"changed",
+			"displayModel",
+			"vm.blueprintTags",
+			"structureBlueprintTags",
+			"displayModel =",
+			"vm.blueprintTags",
+			"blueprintTags =",
+			"blueprintTags",
+			"structureBlueprintTags",
+			"displayModel =",
+			"vm.blueprintTags",
+			"updateChangedTags",
+			"updatePreviewValue",
+			"initTagTranslation",
+			"if (!tag.pr",
+			"tag.previewValue",
+			"toString",
+			"updatePreviewValue",
+			"loadBlueprintTags",
+			"vm.busy.config.resolve",
+			"vm.busy.config",
+			"blueprintId",
+			"loadBlueprintTags",
+			"updateChangedTags",
+			"vm.blueprintTags",
+			"updateChangedTags",
+			"updatePreviewValue",
+			":",
+			"comment",
+			"publish changes",
+			"editTag",
+			"vm.displayModel",
+			"structureBlueprintTags",
+			"console.log",
+			"height",
+			"editTag",
+			"initTagTranslation",
+			"editTag",
+			"click",
+			"updateChangedTags",
+			"postPreviewValue",
+			"preview",
+			"updateChangedTags"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"getBlueprintTranslation",
+			"blueprintTranslation",
+			"uib-dropdown",
+			"dropdown-toggle\" uib-dropdown-toggle",
+			"\" uib-dropdown-menu",
+			"box-sizing: border-box;",
+			"$vop4-default-text",
+			"vop4-link-active",
+			"$vop4-link",
+			"$vop4-background",
+			"$vop4",
+			"vop4-text",
+			"window.corona",
+			"getPanelAsset(\"",
+			"getLocaleAsset(\"",
+			"getLocaleAsset",
+			"getPanelAsset",
+			"wrapper.blueprint.getGlobalTranslation(\"",
+			"template.promoTitle.toString != \"\"",
+			"!template.promoTitle.empty",
+			"template.promoTitle.nonEmpty",
+			"template.promoTitle != play.twirl.api.Html(\"\")",
+			"wrapper.blueprint.getTranslation",
+			"wrapper.getTranslation",
+			"@(template.meta_keywords)",
+			"@(template.meta_description)",
+			"@(template.meta_keywords_locale)",
+			"template.promoTitle",
+			"@(wrapper.blueprint.getTranslation(template.meta_description))",
+			"@(template.title)",
+			"@(template.title_locale)",
+			"meta_keywords = wrapper.getTranslations($2)",
+			"title = wrapper.getTranslations($2)",
+			"promoTitle = wrapper.getTranslations($2)",
+			"meta_description = wrapper.getTranslations($2)",
+			"title = wrapper.getTranslations($2)",
+			"$1getTranslations($2)",
+			"meta_description = wrapper.blueprint.getTranslation(\"",
+			"title = wrapper.blueprint.getTranslation(\"",
+			"title",
+			"meta_description",
+			"promoTitle",
+			"title",
+			"meta_description",
+			"promoTitle",
+			"privacy",
+			"eula",
+			"pages_account",
+			"pages_accountHistory_empty_state",
+			"airmiles",
+			"getAsset",
+			"rewardCache",
+			"advanceErrorMessage",
+			"advanceError",
+			"quantityErrorMessage",
+			"quantityError",
+			"rewardFormsDisplayed",
+			"service.rewardFormsCache",
+			"vm.orderService.",
+			"service.",
+			"vm.",
+			"mandatoryResetForm",
+			"email_account_mandatoryPasswordReset_title",
+			"email_account_mandatoryPasswordReset_content",
+			"controllers.Application.loadPage(path: String = \"index.html\")",
+			"controllers.Application.handleLegacyRedirect(dest: String = \"index.html\")",
+			"controllers.Application.loadPage(path: String = \"index.html\")",
+			"a",
+			"/",
+			"",
+			"about",
+			"\" =",
+			" => ",
+			"case \"",
+			"../../../../shared/",
+			"maintenance",
+			"getAsset",
+			"wrapper.blueprint.getPanelLocaleAsset",
+			"../../../../shared/",
+			"../../../public",
+			"../../../shared",
+			"invalidatePostalSelects",
+			"dist/0.6/xdomain.js",
+			"_.includes",
+			"_.filter",
+			"_.map",
+			"_.each",
+			"",
+			"1.5.0",
+			"^",
+			"\",",
+			"\"",
+			"require(\"./public/shared/",
+			"script!uglify!",
+			"raw",
+			"../",
+			"",
+			"public",
+			"../../../",
+			"../../../../",
+			"require(\"script!.",
+			");",
+			"corona.unload",
+			"$publicPath: \"../../",
+			"templateUrl: window.corona.cdn + '/public/",
+			"src=\"{{$root.window.corona.cdn}} + \"",
+			"window.corona.cdn + '",
+			"window.corona.cdn + \"",
+			"window.corona.cdn + \"/public",
+			"@(wrapper.getAssetUrl())",
+			"dist/xdomain.min.js",
+			"/public/shared/vendor/xdomain/dist/xdomain.js",
+			"autocomplete=\"false\"",
+			"elementScope",
+			"field",
+			"{{def.__key}}",
+			"{{options.model._key}}",
+			"$scope.form[$scope.options.model._key]",
+			"$scope.options.templateOptions.model[$scope.options.templateOptions.model._key]",
+			"$scope.options.model[$scope.options.model._key]",
+			"$scope.model[$scope.model._key]",
+			"model._key",
+			"form[options.templateOptions.model._key]",
+			"options.templateOptions.model._key",
+			"model._key",
+			"flareFormsObject",
+			"service",
+			"vm."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 148.0
+	},
+	"pinned_build_system": "",
+	"project": "react-native-testing.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"apiconfig",
+				"public/components/api/apiConfig.js"
+			],
+			[
+				"translationservice",
+				"public/components/models/translationService.js"
+			],
+			[
+				"ui_boost",
+				"public/sass/themes/nickifresh/bower_components/ui_bootstrap/_ui_bootstrap.scss"
+			],
+			[
+				"tooltip.scss",
+				"node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss"
+			],
+			[
+				"global.js",
+				"public/packages/global.js"
+			],
+			[
+				"style.scss",
+				"public/sass/themes/nickifresh/style.scss"
+			],
+			[
+				"package.json",
+				"package.json"
+			],
+			[
+				"config.scss",
+				"public/sass/themes/nickifresh/_config.scss"
+			],
+			[
+				"packages.j",
+				"build/packages.json"
+			],
+			[
+				"modelreward",
+				"public/components/models/reward.js"
+			],
+			[
+				"flareform",
+				"public/shared/mocks/flareForm.json"
+			],
+			[
+				"routes",
+				"conf/routes"
+			],
+			[
+				"application",
+				"conf/application.conf"
+			],
+			[
+				"apiconfi",
+				"public/shared/components/api/apiConfig.js"
+			],
+			[
+				"rewardforms",
+				"public/shared/mocks/rewardForms.json"
+			],
+			[
+				"rewardform",
+				"public/shared/mocks/rewardForms.json"
+			],
+			[
+				"authservice",
+				"public/shared/components/auth/authService.js"
+			],
+			[
+				"reardforms",
+				"public/shared/mocks/rewardForms.json"
+			],
+			[
+				"api",
+				"public/shared/components/api/apiConfig.js"
+			],
+			[
+				"rewards.json",
+				"public/shared/mocks/rewardsList.json"
+			],
+			[
+				"rewardsjson",
+				"public/shared/mocks/rewardsList.json"
+			],
+			[
+				"rewardsfo",
+				"public/shared/mocks/rewardForms.json"
+			],
+			[
+				"rewards.scss",
+				"public/blueprints/vop3/sass/rewards.scss"
+			],
+			[
+				"resetpassword.js",
+				"public/blueprints/vop3/apps/resetPassword/resetPassword.js"
+			],
+			[
+				"build",
+				"project/Build.scala"
+			],
+			[
+				"buil",
+				"project/Build.scala"
+			],
+			[
+				"plugins",
+				"project/plugins.sbt"
+			],
+			[
+				"build.scala",
+				"project/Build.scala"
+			],
+			[
+				"application.scala",
+				"app/controllers/Application.scala"
+			],
+			[
+				"sttyle.css",
+				"public/blueprints/airmiles/dist/stylesheets/style.css"
+			],
+			[
+				"404.js",
+				"public/blueprints/vop3/common/404.js"
+			],
+			[
+				"404.scss",
+				"public/blueprints/vop3/sass/404.scss"
+			],
+			[
+				"helpers",
+				"gulp/libs/helpers.js"
+			],
+			[
+				"gulpfile",
+				"gulpfile.js"
+			],
+			[
+				"surveyrender",
+				"public/shared/components/surveyRender/surveyRenderData.js"
+			],
+			[
+				"defaultlay",
+				"public/blueprints/vop3/apps/defaultLayout/defaultLayout.js"
+			],
+			[
+				"apiconf",
+				"public/shared/components/api/apiConfig.js"
+			],
+			[
+				"languageselect",
+				"public/shared/components/languageSelector/languageSelector.js"
+			],
+			[
+				"flareformstest",
+				"public/blueprints/vop3/apps/flareFormsTest/flareFormsTest.js"
+			],
+			[
+				"flareforms",
+				"public/shared/components/flareForms/flareFormsController.js"
+			],
+			[
+				"rewardssele",
+				"play/public/shared/javascripts/angular_views/rewards/rewardsSelectionController.js"
+			],
+			[
+				"ordercontroller",
+				"play/public/shared/javascripts/angular_views/rewards/rewardsOrderController.js"
+			],
+			[
+				"transaction",
+				"play/public/shared/javascripts/angular_apps/transactionHistory.js"
+			],
+			[
+				"_config",
+				"play/public/shared/sass/_config.scss"
+			],
+			[
+				"history.scss",
+				"play/public/shared/sass/auth/survey-history.scss"
+			],
+			[
+				"rewards_history",
+				"sites/vop_in/content/auth/rewards_history.html"
+			],
+			[
+				"survey_history",
+				"sites/vop_in/content/auth/survey_history.html"
+			],
+			[
+				"survey_hi",
+				"sites/vop_in/content/auth/survey_history.html"
+			],
+			[
+				"template_re",
+				"play/public/shared/javascripts/angular_views/signup/html/template_registrationForm.html"
+			],
+			[
+				"template_",
+				"play/public/shared/javascripts/angular_views/signup/html/template_registrationForm.html"
+			],
+			[
+				"helpers.js",
+				"play/public/shared/javascripts/angular_components/helpers/helpers.js"
+			],
+			[
+				"registration2",
+				"play/public/mocks/registration2.json"
+			],
+			[
+				"code.scss",
+				"assets/public/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap/_code.scss"
+			],
+			[
+				"_.c",
+				".sass-cache/48b402c78b3af045f0bef5511cf140124dfc5a5a/_code.scssc"
+			],
+			[
+				"contracts",
+				"assets/public/contracts/parameterAndFullDependencyTree.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Nova/sublimeProjects/vopPrototype.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
