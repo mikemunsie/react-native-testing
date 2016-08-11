@@ -17,5 +17,20 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+  },
+  button: {
+    backgroundColor: "#000000",
+    marginBottom: 7,
+    borderWidth: 1,
+    borderColor: "#666666",
+    borderRadius: 2,
+    padding: 20,
+    margin: 40
+  },
+  buttonText: {
+    fontFamily: 'Roboto-Light',
+    fontSize: 15,
+    textAlign: 'center',
+    color: '#ffffff'
   }
 });

@@ -2,15 +2,20 @@ import React, { Component } from 'react';
 import {
   AppRegistry,
   View,
-  DeviceEventEmitter
+  DeviceEventEmitter,
+  Image,
+  Text,
+  TouchableHighlight,
+  TouchableNativeFeedback
 } from 'react-native';
 import PushNotification from 'react-native-push-notification';
 
 var BackgroundTimer = require('react-native-background-timer');
 
 import { styles } from "./stylesheet";
-import { ViewsDashboard } from "./views/dashboard.js";
-import { ViewsWebView } from "./views/webView.js";
+import { ViewsDashboard } from "./views/dashboard";
+import { ViewsWebView } from "./views/webView";
+import { ViewsImage } from "./views/image";
 
 class ReactNativeTest extends Component {
 
@@ -24,7 +29,7 @@ class ReactNativeTest extends Component {
     // Interval that will run in the background and run some tasks :D
     BackgroundTimer.start(30000);
     DeviceEventEmitter.addListener('backgroundTimer', () => {
-      this.testJSON().then(this.sendNotification);
+      //this.testJSON().then(this.sendNotification);
     });
   }
 
@@ -59,13 +64,58 @@ class ReactNativeTest extends Component {
 
   render() {
     return (
-      <View style={{flex: 1}}>
-        {/*
-          <ViewsWebView />
-          <ViewsDashboard />
-          */
-        }
+      <View style={{flex: 1, flexDirection: 'column'}}>
+        <View style={{flex: 0, flexDirection: 'row'}}>
+          <View style={{backgroundColor: "#ff0000", height: 55, width: 55, flex: 0}} />
+          <View style={{backgroundColor: "#000000", height: 55, width: 100, flex: 2}} >
+
+          </View>
+        </View>
+        <View style={{flex: 1, position: 'relative', backgroundColor: "#333333"}}>
+          <Image
+            resizeMode="cover"
+            source={{uri: "http://munstrocity.com:9002/public/images/splash.jpg"}}
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              bottom: 0,
+              right: 0
+            }}
+          />
+          <TouchableHighlight
+            underlayColor={"#333333"}
+            onPress={(btn) => alert("Cool")}
+            style={styles.button}
+          >
+            <View>
+              <Text style={styles.buttonText}>Button!</Text>
+            </View>
+          </TouchableHighlight>
+          <TouchableHighlight
+            underlayColor={"#333333"}
+            onPress={(btn) => alert("Cool")}
+            style={styles.button}
+          >
+            <View>
+              <Text style={styles.buttonText}>Button!</Text>
+            </View>
+          </TouchableHighlight>
+          <TouchableHighlight
+            underlayColor={"#333333"}
+            onPress={(btn) => alert("Cool")}
+            style={styles.button}
+          >
+            <View>
+              <Text style={styles.buttonText}>Button!</Text>
+            </View>
+          </TouchableHighlight>
+        </View>
+        <View style={{flex: 0, paddingTop: 10, height: 50, flexDirection: 'row', backgroundColor: "#000000"}}>
+          <Text style={{color: "#ffffff"}}>This is my footer</Text>
+        </View>
       </View>
+
     );
   }
 }

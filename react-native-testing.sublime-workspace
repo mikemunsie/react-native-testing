@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"compon",
+				"componentWillUnmount	Life Cycle Method"
+			],
+			[
 				"scrollTo",
 				"scrollToNearestError"
 			],
@@ -114,10 +118,6 @@
 			[
 				"get",
 				"getRespondentInfo"
-			],
-			[
-				"compon",
-				"components_api_apiService"
 			],
 			[
 				"rese",
@@ -340,9 +340,66 @@
 	"buffers":
 	[
 		{
+			"file": "src/app.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 2049,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "android/app/src/main/AndroidManifest.xml",
+			"settings":
+			{
+				"buffer_size": 2430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "android/app/src/main/java/com/reactnativetest/MainApplication.java",
+			"settings":
+			{
+				"buffer_size": 1101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "android/app/src/main/java/com/reactnativetest/BackgroundTimer/BackgroundTimerPackage.java",
+			"settings":
+			{
+				"buffer_size": 999,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "package com.reactnativetest;\n\nimport com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;\nimport android.app.Application;\nimport android.util.Log;\n\nimport com.facebook.react.bridge.JavaScriptModule;\nimport com.facebook.react.bridge.NativeModule;\nimport com.facebook.react.bridge.ReactApplicationContext;\nimport com.facebook.react.bridge.ReactContext;\nimport com.facebook.react.bridge.ReactContextBaseJavaModule;\nimport com.facebook.react.bridge.ReactMethod;\nimport com.facebook.react.modules.core.DeviceEventManagerModule;\nimport com.facebook.react.ReactApplication;\nimport com.facebook.react.uimanager.ViewManager;\n\nimport com.facebook.react.ReactInstanceManager;\nimport com.facebook.react.ReactNativeHost;\nimport com.facebook.react.ReactPackage;\nimport com.facebook.react.shell.MainReactPackage;\n\nimport java.util.Arrays;\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\nimport java.lang.Runnable;\n\npublic class MainApplication extends Application implements ReactApplication {\n\n  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {\n    @Override\n    protected boolean getUseDeveloperSupport() {\n      return BuildConfig.DEBUG;\n    }\n\n    @Override\n    public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {\n        List<NativeModule> modules = new ArrayList<>();\n        modules.add(new BackgroundTimerModule(reactContext));\n        return modules;\n    }\n\n    @Override\n    public List<Class<? extends JavaScriptModule>> createJSModules() {\n        return Collections.emptyList();\n    }\n\n    @Override\n    public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {\n        return Collections.emptyList();\n    }\n\n    @Override\n    protected List<ReactPackage> getPackages() {\n      return Arrays.<ReactPackage>asList(\n          new MainReactPackage(),\n          new ReactNativePushNotificationPackage()\n      );\n    }\n  };\n\n  @Override\n  public ReactNativeHost getReactNativeHost() {\n      return mReactNativeHost;\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 2056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "android/app/src/main/java/com/reactnativetest/BackgroundTimer/BackgroundTimerModule.java",
+			"settings":
+			{
+				"buffer_size": 1526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "android/app/src/main/java/com/reactnativetest/MainActivity.java",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 334,
 				"line_ending": "Unix"
 			}
 		}
@@ -520,9 +577,41 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src/main",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src/main/java",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src/main/java/com",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src/main/java/com/reactnativetest",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/build/intermediates",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/build/intermediates/dex-cache",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/gradle/wrapper",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/node_modules/react-native-background-timer",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/node_modules/react-native-background-timer/android",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/node_modules/react-native-background-timer/android/src",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/node_modules/react-native-background-timer/android/src/main",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/node_modules/react-native-background-timer/android/src/main/java",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/node_modules/react-native-background-timer/android/src/main/java/com",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/node_modules/react-native-background-timer/android/src/main/java/com/ocetnik",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/node_modules/react-native-background-timer/android/src/main/java/com/ocetnik/timer",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/src",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/src/views"
 	],
 	"file_history":
 	[
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src/main/java/com/reactnativetest/BackgroundTimerPackage.java",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src/main/java/com/reactnativetest/BackgroundTimerModule.java",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/index.android.js",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/src/stylesheet.js",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/build.gradle",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/build.gradle",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src/main/AndroidManifest.xml",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/settings.gradle",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/android/app/src/main/java/com/reactnativetest/MainApplication.java",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/src/views/dashboard.js",
+		"/Users/mikemunsie/Documents/Nova/Lab/react-native-testing/src/views/webView.js",
 		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/html/forms.html",
 		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/panels/manage/formsController.js",
 		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/api/apiConfig.js",
@@ -639,22 +728,11 @@
 		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/flareFormsAdmin/elements/novaCaptcha/novaCaptcha.js",
 		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/flareFormsAdmin/flareFormsAdmin.js",
 		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/flareFormsAdmin/elements/novaCaptcha/readme.md",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/session/sessionService.js",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/build/packages.json",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/apps/rewards/html/email.html",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/_config.scss",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/components/flareForms/scss/flareForms.scss",
-		"/Users/mikemunsie/Desktop/VOP4-Help.txt",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/webpack.config.js",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/apps/componentExamples/componentExamples.js",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/flareForms.scss",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/_config-bootstrap.scss",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop4/sass/style.scss",
-		"/Users/mikemunsie/Documents/Nova/Repos/nova-corona/public/blueprints/vop3/sass/_config.scss"
+		"/Users/mikemunsie/Documents/Nova/Repos/nova-coolazelle/public/components/session/sessionService.js"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -796,6 +874,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"alert",
+			"testJSON",
+			"reactContext",
+			"nativeModule",
+			"ReactApplicationContext",
+			"backgroundTimer",
+			"timer",
+			"react-native-background-timer",
+			"BackgroundTimer",
+			"webview",
+			"reactnativeTest",
+			"styles",
+			"alert",
 			"callSurveyRenderService",
 			"form-control",
 			"forceResetPassword",
@@ -910,20 +1001,7 @@
 			"updatePreviewValue",
 			":",
 			"comment",
-			"publish changes",
-			"editTag",
-			"vm.displayModel",
-			"structureBlueprintTags",
-			"console.log",
-			"height",
-			"editTag",
-			"initTagTranslation",
-			"editTag",
-			"click",
-			"updateChangedTags",
-			"postPreviewValue",
-			"preview",
-			"updateChangedTags"
+			"publish changes"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1069,15 +1147,135 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "src/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1766,
+								1766
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1797,
+										1798
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1765,
+										1766
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "android/app/src/main/AndroidManifest.xml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2430,
 						"regions":
 						{
 						},
@@ -1085,6 +1283,332 @@
 						[
 							[
 								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2420,
+										2428
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1,
+										9
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "android/app/src/main/java/com/reactnativetest/MainApplication.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "android/app/src/main/java/com/reactnativetest/BackgroundTimer/BackgroundTimerPackage.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								391
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								952,
 								0
 							]
 						],
@@ -1164,13 +1688,355 @@
 								"bh_regex_close",
 								"bh_regex_content"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "android/app/src/main/java/com/reactnativetest/BackgroundTimer/BackgroundTimerModule.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								502,
+								468
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1525,
+										1526
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										432,
+										433
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "android/app/src/main/java/com/reactnativetest/MainActivity.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								268
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										268,
+										269
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										238,
+										239
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
