@@ -1,121 +1,79 @@
+import ScrollableTabView from 'react-native-scrollable-tab-view';
+import FacebookTabBar from "./facebookTabBar"
 import React, { Component } from 'react';
 import {
+  Animated,
   AppRegistry,
-  View,
   DeviceEventEmitter,
   Image,
+  ScrollView,
+  StyleSheet,
   Text,
   TouchableHighlight,
-  TouchableNativeFeedback
+  TouchableNativeFeedback,
+  View,
 } from 'react-native';
-import PushNotification from 'react-native-push-notification';
 
-var BackgroundTimer = require('react-native-background-timer');
-
-import { styles } from "./stylesheet";
-import { ViewsDashboard } from "./views/dashboard";
-import { ViewsWebView } from "./views/webView";
-import { ViewsImage } from "./views/image";
+const styles = StyleSheet.create({
+  tabView: {
+    flex: 1,
+    padding: 10,
+    backgroundColor: 'rgba(0,0,0,0.01)',
+  },
+  card: {
+    borderWidth: 1,
+    backgroundColor: '#fff',
+    borderColor: 'rgba(0,0,0,0.1)',
+    margin: 5,
+    height: 150,
+    padding: 15,
+    shadowColor: '#ccc',
+    shadowOffset: { width: 2, height: 2, },
+    shadowOpacity: 0.5,
+    shadowRadius: 3,
+  },
+});
 
 class ReactNativeTest extends Component {
-
   constructor(props) {
     super(props);
-
-    PushNotification.configure({
-      requestPermissions: true
-    });
-
-    // Interval that will run in the background and run some tasks :D
-    BackgroundTimer.start(30000);
-    DeviceEventEmitter.addListener('backgroundTimer', () => {
-      //this.testJSON().then(this.sendNotification);
-    });
+    this.state = {
+      bounceValue: new Animated.Value(0)
+    };
   }
-
-  async testJSON() {
-    try {
-      let response = await fetch('http://munstrocity.com:9001/');
-      let responseJson = await response.json();
-      return responseJson.lastChecked;
-    } catch(error) {
-      console.error(error);
-    }
+  componentDidMount() {
+    this.state.bounceValue.setValue(1);
+    Animated.spring(
+      this.state.bounceValue,
+      {
+        toValue: 1,
+        friction: 1,
+      }
+    ).start();
   }
-
-  sendNotification(message) {
-    PushNotification.localNotification({
-      title: "My Notification Title", // (optional)
-      ticker: "My Notification Ticker", // (optional)
-      autoCancel: true, // (optional) default: true
-      largeIcon: "ic_launcher", // (optional) default: "ic_launcher"
-      smallIcon: "ic_notification", // (optional) default: "ic_notification" with fallback for "ic_launcher"
-      color: "red", // (optional) default: system default
-      vibrate: true, // (optional) default: true
-      vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
-      message: message, // (required)
-      playSound: true, // (optional) default: true
-    });
-
-  }
-  componentWillUnmount() {
-    BackgroundTimer.stop();
-  }
-
   render() {
     return (
-      <View style={{flex: 1, flexDirection: 'column'}}>
-        <View style={{flex: 0, flexDirection: 'row'}}>
-          <View style={{backgroundColor: "#ff0000", height: 55, width: 55, flex: 0}} />
-          <View style={{backgroundColor: "#000000", height: 55, width: 100, flex: 2}} >
-
+      <ScrollableTabView
+        style={{marginTop: 20, }}
+        initialPage={1}
+        renderTabBar={() => <FacebookTabBar />}
+        >
+        <ScrollView tabLabel="ios-chatboxes" style={styles.tabView}>
+          <View style={styles.card}>
+            <Text>Messenger</Text>
           </View>
-        </View>
-        <View style={{flex: 1, position: 'relative', backgroundColor: "#333333"}}>
-          <Image
-            resizeMode="cover"
-            source={{uri: "http://munstrocity.com:9002/public/images/splash.jpg"}}
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              bottom: 0,
-              right: 0
-            }}
-          />
-          <TouchableHighlight
-            underlayColor={"#333333"}
-            onPress={(btn) => alert("Cool")}
-            style={styles.button}
-          >
-            <View>
-              <Text style={styles.buttonText}>Button!</Text>
-            </View>
-          </TouchableHighlight>
-          <TouchableHighlight
-            underlayColor={"#333333"}
-            onPress={(btn) => alert("Cool")}
-            style={styles.button}
-          >
-            <View>
-              <Text style={styles.buttonText}>Button!</Text>
-            </View>
-          </TouchableHighlight>
-          <TouchableHighlight
-            underlayColor={"#333333"}
-            onPress={(btn) => alert("Cool")}
-            style={styles.button}
-          >
-            <View>
-              <Text style={styles.buttonText}>Button!</Text>
-            </View>
-          </TouchableHighlight>
-        </View>
-        <View style={{flex: 0, paddingTop: 10, height: 50, flexDirection: 'row', backgroundColor: "#000000"}}>
-          <Text style={{color: "#ffffff"}}>This is my footer</Text>
-        </View>
-      </View>
-
+        </ScrollView>
+        <ScrollView tabLabel="ios-notifications" style={styles.tabView}>
+          <View style={styles.card}>
+            <Text>Notifications</Text>
+          </View>
+        </ScrollView>
+        <ScrollView tabLabel="ios-list" style={styles.tabView}>
+          <View style={styles.card}>
+            <Text>Other nav</Text>
+          </View>
+        </ScrollView>
+      </ScrollableTabView>
     );
   }
 }
