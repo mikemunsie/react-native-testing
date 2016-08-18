@@ -15,6 +15,8 @@ react-native run-android
 ```
 - Start up the server that will watch for new changes
 ```
-npm run start
+# Why sudo? see: http://stackoverflow.com/questions/38885760/react-native-packager-failure-duplicate-module-name
+sudo npm run start
 ```
 - Shake app to get to the dev settings and enable hot reload and update Debug server host and port to where the server is running the react app
+

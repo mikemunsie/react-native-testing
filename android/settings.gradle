@@ -1,5 +1,7 @@
 rootProject.name = 'ReactNativeTest'
 include ':app'
+include ':react-native-background-timer'
+project(':react-native-background-timer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-background-timer/android')
 include ':react-native-push-notification'
 include ':react-native-vector-icons'
 project(':react-native-push-notification').projectDir = file('../node_modules/react-native-push-notification/android')

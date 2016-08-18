@@ -1,6 +1,7 @@
 package com.reactnativetest;
 
 import com.facebook.react.ReactActivity;
+import com.ocetnik.timer.BackgroundTimerPackage;
 
 public class MainActivity extends ReactActivity {
 
