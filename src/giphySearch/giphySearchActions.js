@@ -1,6 +1,16 @@
 export const GIPHY_SEARCH = 'GIPHY_SEARCH';
 export const GIPHY_RECEIVE_SEARCH = 'GIPHY_RECEIVE_SEARCH';
 
+ async function getResults(criteria) {
+    try {
+      let response = await fetch("http://api.giphy.com/v1/gifs/search?q=" + criteria + "&api_key=dc6zaTOxFJmzC&limit=5");
+      let responseJson = await response.json();
+      return responseJson;
+    } catch(error) {
+      console.error(error);
+    }
+  }
+
 function search(criteria) {
   return {
     type: GIPHY_SEARCH,
@@ -19,15 +29,9 @@ function receiveSearch(criteria, json) {
 export function fetchPosts(criteria) {
   return (dispatch) => {
     dispatch(search(criteria));
-    setTimeout(() => dispatch(receiveSearch(criteria, [])), 1000);
-    /*
-    request.get("http://api.giphy.com/v1/gifs/search?q=" + criteria + "&api_key=dc6zaTOxFJmzC&limit=5")
-    .accept('json')
-    .end((err, {body}) => {
-      this.giphySearchCall = false;
+    getResults(criteria)
+    .then((body) => {
       dispatch(receiveSearch(criteria, body.data));
-      dispatch(isLoading(false));
     });
-    */
   };
 }

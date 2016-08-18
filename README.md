@@ -19,4 +19,4 @@ react-native run-android
 sudo npm run start
 ```
 - Shake app to get to the dev settings and enable hot reload and update Debug server host and port to where the server is running the react app
-
+- Use rnpm to install future android deps

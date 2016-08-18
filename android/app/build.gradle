@@ -126,13 +126,14 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-vector-icons')
     compile project(':react-native-background-timer')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
 
-    // Enable icons
-    compile project(':react-native-vector-icons')
+    // Support Gifs! (will be fixed in next release)
+    compile "com.facebook.fresco:animated-gif:0.12.0"
 
     // Enable push notifications
     compile project(':react-native-push-notification')
