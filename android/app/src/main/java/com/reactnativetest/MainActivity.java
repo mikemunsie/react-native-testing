@@ -1,6 +1,7 @@
 package com.reactnativetest;
 
 import com.facebook.react.ReactActivity;
+import com.github.xinthink.rnmk.ReactMaterialKitPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.ocetnik.timer.BackgroundTimerPackage;
 

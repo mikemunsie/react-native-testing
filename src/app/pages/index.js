@@ -9,7 +9,7 @@ class IndexComponent extends Component {
     super(props)
   }
   test() {
-    alert("yay")
+    this.props.router.changeRoute("manage");
   }
   render() {
     const { criteria } = this.props;
