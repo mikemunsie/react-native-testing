@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import { Provider, connect } from "react-redux";
 import { Text, Image, TouchableHighlight, View } from 'react-native';
-import { GiphySearch } from "../../giphySearch/giphySearchComponent";
 import { AppText, styles } from "../styles/stylesheet";
 
 class IndexComponent extends Component {
   constructor(props) {
     super(props)
-  }
-  test() {
-    this.props.router.changeRoute("manage");
   }
   render() {
     const { criteria } = this.props;
@@ -31,7 +27,7 @@ class IndexComponent extends Component {
             activeOpacity={.9}
             underlayColor="#ffffff"
             style={[styles.button, { marginBottom: 15 }]}
-            onPress={() => this.test()}
+            onPress={() => this.props.router.changeRoute("manage")}
           >
             <View style={[styles.buttonBlue]}>
               <AppText style={styles.buttonText}>Manage my Budget</AppText>
@@ -41,10 +37,10 @@ class IndexComponent extends Component {
             activeOpacity={.9}
             underlayColor="#ffffff"
             style={[styles.button, { marginBottom: 15 }]}
-            onPress={() => this.test()}
+            onPress={() => this.props.router.changeRoute("giphySearch")}
           >
             <View style={[styles.buttonOrange]}>
-              <AppText style={styles.buttonText}>Load Sample Profile</AppText>
+              <AppText style={styles.buttonText}>Load Giphy Test App</AppText>
             </View>
           </TouchableHighlight>
         </View>
@@ -53,7 +49,7 @@ class IndexComponent extends Component {
   }
 }
 
-export const Index = connect(
+export const IndexPage = connect(
   state => {
     return {
       criteria: state.GiphySearch.criteria

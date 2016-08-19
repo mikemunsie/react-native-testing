@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Provider, connect } from "react-redux";
 import { Text, Image, ScrollView, TouchableHighlight, View } from 'react-native';
-import { GiphySearch } from "../../giphySearch/giphySearchComponent";
 import { AppText, styles } from "../styles/stylesheet";
 import ScrollableTabView from 'react-native-scrollable-tab-view';
 import { MKColor, MKTextField } from 'react-native-material-kit';
@@ -20,9 +19,6 @@ const TextfieldWithFloatingLabel = MKTextField.textfieldWithFloatingLabel()
 class ManageComponent extends Component {
   constructor(props) {
     super(props)
-  }
-  test() {
-    alert("yay")
   }
   render() {
     const { criteria } = this.props;
@@ -48,7 +44,7 @@ class ManageComponent extends Component {
   }
 }
 
-export const Manage = connect(
+export const ManagePage = connect(
   state => {
     return {
       criteria: state.GiphySearch.criteria

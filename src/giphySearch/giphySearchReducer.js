@@ -1,7 +1,7 @@
 import { GIPHY_SEARCH, GIPHY_RECEIVE_SEARCH } from "./giphySearchActions";
 
 const defaultState = {
-  criteria: "Default Search",
+  criteria: "",
   posts: []
 }
 

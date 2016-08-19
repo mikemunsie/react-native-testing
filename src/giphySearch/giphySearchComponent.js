@@ -4,6 +4,16 @@ import { Provider, connect } from "react-redux";
 import { View, Text, TextInput } from 'react-native';
 import * as Actions from "./giphySearchActions";
 import { Results } from "./giphySearchResults";
+import { MKColor, MKTextField } from 'react-native-material-kit';
+
+const TextfieldWithFloatingLabel = MKTextField.textfieldWithFloatingLabel()
+  .withPlaceholder('Search:')
+  .withFloatingLabelFont({
+    fontSize: 10,
+    fontStyle: 'italic',
+    fontWeight: '200',
+  })
+  .build();
 
 class GiphySearchComponent extends Component {
   constructor(props) {
@@ -19,9 +29,9 @@ class GiphySearchComponent extends Component {
   }
   render() {
     return (
-      <View>
-        <TextInput
-          style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+      <View style={{padding: 15 }}>
+        <TextfieldWithFloatingLabel
+          style={{marginBottom: 15}}
           onChangeText={(text) => this.debouncedSearch(text)}
           defaultValue={this.props.stateCriteria}
         />
