@@ -2,3 +2,5 @@
 react-native run-android
 
 # Update dev settings on react native to point to dev server
+
+To install app icons, visit the src/main/res directories

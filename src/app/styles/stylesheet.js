@@ -1,36 +1,59 @@
 import { StyleSheet } from 'react-native';
 
+export { AppText } from "./appText";
+
 export const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#000000'
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-    color: "#fff"
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+  h1: {
+    color: "#000000",
+    fontSize: 50,
+    textAlign: "center",
+    fontFamily: "AdventPro-Regular"
   },
   button: {
-    backgroundColor: "#000000",
-    marginBottom: 7,
-    borderWidth: 1,
-    borderColor: "#666666",
-    borderRadius: 2,
-    padding: 20,
-    margin: 40
+    width: 300
+  },
+  buttonBlue: {
+    backgroundColor: "rgba(78, 135, 234, .8)"
+  },
+  buttonOrange: {
+    backgroundColor: "rgba(219, 136, 70, .8)"
   },
   buttonText: {
-    fontFamily: 'Roboto-Light',
-    fontSize: 15,
-    textAlign: 'center',
-    color: '#ffffff'
+    color: "#fff",
+    padding: 20,
+    fontSize: 18,
+    fontWeight: "400",
+    textAlign: "center"
+  },
+  center: {
+    textAlign: "center"
+  },
+  flexColumn: {
+    flexDirection: 'column'
+  },
+  flexRow: {
+    flexDirection: 'row'
+  },
+  p: {
+    color: "#000",
+    fontSize: 18
+  },
+  container: {
+    flex: 1,
+    position: "relative"
+  },
+  backgroundImage: {
+    flex: 1,
+    position: "absolute",
+    top: 0,
+    left: 0,
+    resizeMode: "cover",
+    justifyContent: "center",
+    alignItems: 'center'
+  },
+  text: {
+    fontFamily: "Roboto-Light",
+    fontWeight: "400",
+    fontSize: 12
   }
 });
